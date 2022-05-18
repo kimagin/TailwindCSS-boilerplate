@@ -1,0 +1,13 @@
+/* Imported fonts */
+@import url("http://fonts.cdnfonts.com/css/avenir");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typographies */
+@layer base {
+  html {
+    font-family: "Avenir", sans-serif;
+  }
+}
